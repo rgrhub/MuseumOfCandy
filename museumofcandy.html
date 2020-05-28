@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="E:/HTML/MuseumOfCandy/Head/moc.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="E:/HTML/MuseumOfCandy/museumofcandy.css">
+    
+    <title>Museum of Candy</title>
+  </head>
+  <body>
+    
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark py-0" id="nv">
+        <a class="navbar-brand" href="#">Candy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tickets</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+<section>
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-6 d-none d-md-block text-center order-1">
+        <h1 id="title">museum<span>/</span>of<span>/</span>candy</h1>
+        <h1 id="title">museum<span>/</span>of<span>/</span>candy</h1>
+        <h1 id="title">museum<span>/</span>of<span>/</span>candy</h1>
+        <h1 id="title">museum<span>/</span>of<span>/</span>candy</h1>
+        <h1 id="title">museum<span>/</span>of<span>/</span>candy</h1>
+        <h1 id="title">museum<span>/</span>of<span>/</span>candy</h1>
+        <h1 id="title">museum<span>/</span>of<span>/</span>candy</h1>
+      </div>
+
+      <div class="col-12 col-md-6 text-center order-2">
+        <img src="E:\HTML\Bootstrap4_Code\13_Museum_Of_Candy\Starter\imgs\hand2.png" class="img-fluid">
+      </div>
+      <!-- <div class="w-100"></div> -->
+      <div class="col-12 col-md-6 text-center order-4 order-md-3">
+        <img src="E:\HTML\Bootstrap4_Code\13_Museum_Of_Candy\Starter\imgs\gumball.png" class="img-fluid">
+      </div>
+
+      <div class="col-md-6 text-center order-3 order-md-4">
+        <h2>museum of candy</h2>
+        <img id="lolli" class="d-none d-md-inline" src="E:\HTML\Bootstrap4_Code\13_Museum_Of_Candy\Starter\imgs\lolli_icon.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit incidunt sunt ducimus deleniti ex deserunt nobis earum culpa. Asperiores, esse culpa magni, explicabo vel consectetur quod odit aliquid incidunt impedit, beatae assumenda.</p>
+      </div>
+
+      <div class="col-md-6 text-center order-5">
+        <h2>museum of candy</h2>
+        <img id="lolli" class="d-none d-md-inline" src="E:\HTML\Bootstrap4_Code\13_Museum_Of_Candy\Starter\imgs\lolli_icon.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit incidunt sunt ducimus deleniti ex deserunt nobis earum culpa. Asperiores, esse culpa magni, explicabo vel consectetur quod odit aliquid incidunt impedit, beatae assumenda.</p>
+      </div>
+
+      <div class="col-12 col-md-6 text-center order-6">
+        <img src="E:\HTML\Bootstrap4_Code\13_Museum_Of_Candy\Starter\imgs\milk.png" class="img-fluid">
+      </div>
+
+      <div class="col-12 col-md-6 text-center order-8 order-md-7">
+        <img src="E:\HTML\Bootstrap4_Code\13_Museum_Of_Candy\Starter\imgs\sprinkles.png" class="img-fluid">
+      </div>
+
+      <div class="col-md-6 text-center order-7 order-md-8">
+        <h2>museum of candy</h2>
+        <img id="lolli" class="d-none d-md-inline" src="E:\HTML\Bootstrap4_Code\13_Museum_Of_Candy\Starter\imgs\lolli_icon.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit incidunt sunt ducimus deleniti ex deserunt nobis earum culpa. Asperiores, esse culpa magni, explicabo vel consectetur quod odit aliquid incidunt impedit, beatae assumenda.</p>
+      </div>
+    </div>
+  </div>  
+</section>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+    <script>
+      $(function () {
+        $(document).scroll(function(){
+          var $nav = $("#nv");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        })
+      })
+    </script>
+
+  </body>
+</html>
