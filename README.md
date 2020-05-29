@@ -1,2 +1,2 @@
 # museumofcandy
-a web development project to show what can I do so far
+a responsive page which adapts to every dispositive. responsive images, heading and text with a simple script on the navigatipon bar
